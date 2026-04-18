@@ -1,0 +1,8 @@
+# # the configmap can be keep seprate like values-prod.yaml they based on environments dev or prod
+# configmap:
+#   mongoURL: "mongodb://mongodb:27017/catalogue"
+deployment:
+  imageRepo: joindevops/catalogue
+  imageVersion: v1
+service:
+  servicePort: 8080 # default value

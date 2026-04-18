@@ -1,0 +1,3 @@
+# the configmap can be keep seprate like values-prod.yaml they based on environments dev or prod
+configmap:
+  mongoURL: "mongodb://mongodb:27017/catalogue"
