@@ -67,7 +67,14 @@ spec:
     component: catalogue
     tier: backend              
   ports:
+<<<<<<< HEAD
     - protocol: TCP
       ports: {{ .Values.service.servicePort }} # service port
       targetPort: 8080 # container port
     
+=======
+  - protocol: TCP
+    port: {{ .Values.service.servicePort }} # service port
+    targetPort: 8080 # container port
+    
+>>>>>>> f7193fe (deploy)
